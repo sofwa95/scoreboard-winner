@@ -1,0 +1,28 @@
+{
+    "title": "iSaham Web Template",
+    "name": "isaham-web-template",
+    "version": "1.0.0",
+    "description": "A front-end web framework for iSaham.",
+    "homepage": "https://isaham.my",
+    "license": "MIT",
+    "author": "AmirinNS",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/AmirinNS/isaham-web-template.git"
+    },
+    "scripts": {
+        "start": "gulp",
+        "build": "gulp production"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "browser-sync": "^2.24.7",
+        "del": "^3.0.0",
+        "gulp": "^3.9.0",
+        "gulp-clean-css": "3.10.0",
+        "gulp-concat": "^2.6.1",
+        "gulp-htmlmin": "^5.0.1",
+        "gulp-uglify": "3.0.1",
+        "run-sequence": "^2.2.1"
+    }
+}
