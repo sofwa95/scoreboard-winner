@@ -1,3 +1,10 @@
+<<<<<<< HEAD
 node_modules
 bower_components
 build
+||||||| merged common ancestors
+=======
+node_modules
+bower_components
+build
+>>>>>>> c68a394cdbb91fe441bf53308c72ad7a0552be8d
