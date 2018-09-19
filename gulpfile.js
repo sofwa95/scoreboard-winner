@@ -50,7 +50,7 @@ gulp.task('scripts', function() {
 
 gulp.task('scripts-min', function () {
   return gulp.src(['./js/*.min.js', './js/all-scripts.js'])
-    .pipe(gulp.dest('./build/static/css'))
+    .pipe(gulp.dest('./build/static/js'))
     .pipe(browserSync.stream());
 });
 
