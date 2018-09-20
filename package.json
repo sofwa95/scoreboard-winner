@@ -21,8 +21,12 @@
         "gulp": "^3.9.0",
         "gulp-clean-css": "3.10.0",
         "gulp-concat": "^2.6.1",
+        "gulp-html-replace": "^1.6.2",
         "gulp-htmlmin": "^5.0.1",
+        "gulp-prompt": "^1.1.0",
+        "gulp-rename": "^1.4.0",
         "gulp-uglify": "3.0.1",
+        "prompt": "^1.0.0",
         "run-sequence": "^2.2.1"
     }
 }
