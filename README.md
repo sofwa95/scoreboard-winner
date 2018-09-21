@@ -20,6 +20,7 @@ You must have npm and Gulp installed globally on your machine in order to use th
 
 
 ### Steps
+- `npm install`
 - Put CSS files in `css` folder
 - To compile the CSS files, place in the `css/concat` folder.
 - Put JavaScript files in `js` folder
