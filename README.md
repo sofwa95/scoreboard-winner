@@ -20,7 +20,7 @@ You must have npm and Gulp installed globally on your machine in order to use th
 
 
 ### Steps
-- `npm install`
+- First, you must run `npm install` command
 - Put CSS files in `css` folder
 - To compile the CSS files, place in the `css/concat` folder.
 - Put JavaScript files in `js` folder
@@ -36,4 +36,5 @@ Open terminal or command prompt. Change the directory to the project folder and 
 
 - `gulp` run development
 - `gulp build` build production code. Exported in `build` folder
+- `gulp build-no-bundler` build production code without bundled js and css. Exported in `build` folder
 
