@@ -43,7 +43,13 @@
     <!-- build:js -->
 
     <!-- endbuild -->
-    <!-- END: Place bundle of js files here -->
+		<!-- END: Place bundle of js files here -->
+
+		<!-- Link Swiper's CSS -->
+		<link rel="stylesheet" href="css/swiper.min.css">
+		<link rel="stylesheet" href="css/halloffame.css">	
+		<!-- Swiper JS -->
+		<script src="js/swiper.min.js"></script>
   </head>
 
 <body style="margin-top: 100px; width: 100%;">
@@ -100,9 +106,162 @@
   <!-- endbuild -->
 
 <!-- START: Insert your code here -->
+  <!-- Swiper -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
 
+					<div class="jumbotron text-center">
+						  <header class="entry-header">
+									<h1>iSAHAM</h1>
+									<h4>3Q18 PORTFOLIO CHALLENGE</h4>
+					</header><!-- .entry-header -->
+						</div>
 
+        <table id="myTable" class="tablesorter table table-hover table-sector" >
+          <thead>
+              <tr>
+                  <th>WINNERS</th>
+                  <th>SCORE  (%)</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td>1. DEEN DIAMONDBACK</td>
+                  <td>47.5</td>
+              </tr>
+              <tr>
+                  <td>2. ROSMAN AZRAI</td>
+                  <td>31.0</td>
+              </tr>
+              <tr>
+                  <td>3. AJEFRI ABU SALMAN</td>
+                  <td>18.2</td>
+              </tr>
+          </tbody>
+				</table>
+				<div class="jumbotron text-center">
+						<header class="entry-header">
+								<h1>iSAHAM</h1>
+								<h4>3Q18 PORTFOLIO CHALLENGE</h4>
+				</header><!-- .entry-header -->
+					</div>
 
+						<table id="myTable" class="tablesorter table table-hover table-sector" >
+							<thead>	<tr>
+								<th>	WINNERS</th>
+								<th>SCORE(%)</th>	</tr>
+							</thead>
+							<tbody>
+								<tr>
+							<td>4. ALAWI FITRI JOHARI</td>
+							<td>13.1</td></tr>
+								<tr>
+								<td>	5. SHARAFI YAMIN</td>
+								<td>12.2</td>	</tr>							
+									<tr>
+								<td>	6. QAYRUL KHUBAIDILLAH</td>
+								<td>9.1</td></tr>
+									<tr>
+								<td>7. FAIZUL IZWAN	</td>
+								<td>8.0</td></tr>
+									<tr>
+								<td>	8. MAHFUZ MALEK	</td>
+								<td>7.8</td></tr>						
+									<tr>
+								<td>	9.  SYAHID SAPIAN</td>
+								<td>6.8</td></tr>
+								<tr>
+								<td>10.  KEDAI BORONG</td>
+								<td>6.5</td></tr>
+							</tbody>
+					</table>
+			</div>
+			 <div class="swiper-slide">
+					<div class="jumbotron text-center">
+						  <header class="entry-header">
+									<h1>iSAHAM</h1>
+									<h4>2Q18 PORTFOLIO CHALLENGE</h4>
+					</header><!-- .entry-header -->
+						</div>
+
+        <table id="myTable" class="tablesorter table table-hover table-sector" >
+          <thead>
+              <tr>
+                  <th>WINNERS</th>
+                  <th>SCORE  (%)</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td>1. DEEN DIAMONDBACK</td>
+                  <td>47.5</td>
+              </tr>
+              <tr>
+                  <td>2. ROSMAN AZRAI</td>
+                  <td>31.0</td>
+              </tr>
+              <tr>
+                  <td>3. AJEFRI ABU SALMAN</td>
+                  <td>18.2</td>
+              </tr>
+          </tbody>
+        </table>
+			</div>
+			
+
+      <div class="swiper-slide">
+					<div class="jumbotron text-center">
+						  <header class="entry-header">
+									<h1>iSAHAM</h1>
+									<h4>3Q18 PORTFOLIO CHALLENGE</h4>
+					</header><!-- .entry-header -->
+						</div>
+
+        <table id="myTable" class="tablesorter table table-hover table-sector" >
+          <thead>
+              <tr>
+                  <th>WINNERS</th>
+                  <th>SCORE  (%)</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td>1. DEEN DIAMONDBACK</td>
+                  <td>47.5</td>
+              </tr>
+              <tr>
+                  <td>2. ROSMAN AZRAI</td>
+                  <td>31.0</td>
+              </tr>
+              <tr>
+                  <td>3. AJEFRI ABU SALMAN</td>
+                  <td>18.2</td>
+              </tr>
+          </tbody>
+				</table>
+      </div>
+      <!-- <div class="swiper-slide">Slide 4</div> -->
+		</div>
+    
+    
+    
+		 <!-- Add Pagination -->
+		 <div class="swiper-pagination"></div>
+		</div>
+	
+ <!-- Initialize Swiper -->
+ <script>
+    var swiper = new Swiper('.swiper-container', {
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+        renderBullet: function (index, className) {
+          return '<span class="' + className + '">' + (index + 1) + '</span>';
+        },
+      },
+    });
+  </script>
 <!-- END: Insert your code here -->
 </body>
 
