@@ -254,5 +254,11 @@ gulp.task('build-no-bundler', function () {
 
 // Default task
 gulp.task('default', ['browserSync'], function() {
-  gulp.watch('./**', browserSync.reload);
+  gulp.watch('./*.html', browserSync.reload);
+  gulp.watch('./vendor/**', browserSync.reload);
+  gulp.watch('./svg/**', browserSync.reload);
+  gulp.watch('./img/**', browserSync.reload);
+  gulp.watch('./js/**', browserSync.reload);
+  gulp.watch('./css/**', browserSync.reload);
+  gulp.watch('./fonts/**', browserSync.reload);
 });
