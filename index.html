@@ -32,7 +32,7 @@
     <!-- END: Server Framework -->
 
     <!-- IMPORT JS AND CSS HERE -->
-
+		<!-- <script src="js/firework.js"></script> -->
     <!-- START: Place bundle of css files here. Will be compressed into all-styles.css -->
     <!-- build:css -->
 
@@ -41,7 +41,7 @@
 
     <!-- START: Place bundle of js files here. Will be compressed into all-scripts.js -->
     <!-- build:js -->
-
+>
     <!-- endbuild -->
 		<!-- END: Place bundle of js files here -->
 
@@ -52,7 +52,7 @@
 		<script src="js/swiper.min.js"></script>
   </head>
 
-<body style="margin-top: 100px; width: 100%;">
+<body style="width: 100%;">
 
 
 <!-- build:navbar -->
@@ -101,155 +101,22 @@
 		      </li>
 		    </ul>
 		  </div>
-                                                                  </nav>
+		</nav>
   <!-- END: Everything here will be replaced with navbar.html -->
   <!-- endbuild -->
 
 <!-- START: Insert your code here -->
-  <!-- Swiper -->
-  <div class="swiper-container">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide">
+	<!-- Swiper -->
+ <div class="swiper-container new-container">
+  <div class="swiper-wrapper">
 
-					<div class="jumbotron text-center">
-						  <header class="entry-header">
-									<h1>iSAHAM</h1>
-									<h4>3Q18 PORTFOLIO CHALLENGE</h4>
-					</header><!-- .entry-header -->
-						</div>
 
-        <table id="myTable" class="tablesorter table table-hover table-sector" >
-          <thead>
-              <tr>
-                  <th>WINNERS</th>
-                  <th>SCORE  (%)</th>
-              </tr>
-          </thead>
-          <tbody>
-              <tr>
-                  <td>1. DEEN DIAMONDBACK</td>
-                  <td>47.5</td>
-              </tr>
-              <tr>
-                  <td>2. ROSMAN AZRAI</td>
-                  <td>31.0</td>
-              </tr>
-              <tr>
-                  <td>3. AJEFRI ABU SALMAN</td>
-                  <td>18.2</td>
-              </tr>
-          </tbody>
-				</table>
-				<div class="jumbotron text-center">
-						<header class="entry-header">
-								<h1>iSAHAM</h1>
-								<h4>3Q18 PORTFOLIO CHALLENGE</h4>
-				</header><!-- .entry-header -->
-					</div>
-
-						<table id="myTable" class="tablesorter table table-hover table-sector" >
-							<thead>	<tr>
-								<th>	WINNERS</th>
-								<th>SCORE(%)</th>	</tr>
-							</thead>
-							<tbody>
-								<tr>
-							<td>4. ALAWI FITRI JOHARI</td>
-							<td>13.1</td></tr>
-								<tr>
-								<td>	5. SHARAFI YAMIN</td>
-								<td>12.2</td>	</tr>							
-									<tr>
-								<td>	6. QAYRUL KHUBAIDILLAH</td>
-								<td>9.1</td></tr>
-									<tr>
-								<td>7. FAIZUL IZWAN	</td>
-								<td>8.0</td></tr>
-									<tr>
-								<td>	8. MAHFUZ MALEK	</td>
-								<td>7.8</td></tr>						
-									<tr>
-								<td>	9.  SYAHID SAPIAN</td>
-								<td>6.8</td></tr>
-								<tr>
-								<td>10.  KEDAI BORONG</td>
-								<td>6.5</td></tr>
-							</tbody>
-					</table>
-			</div>
-			 <div class="swiper-slide">
-					<div class="jumbotron text-center">
-						  <header class="entry-header">
-									<h1>iSAHAM</h1>
-									<h4>2Q18 PORTFOLIO CHALLENGE</h4>
-					</header><!-- .entry-header -->
-						</div>
-
-        <table id="myTable" class="tablesorter table table-hover table-sector" >
-          <thead>
-              <tr>
-                  <th>WINNERS</th>
-                  <th>SCORE  (%)</th>
-              </tr>
-          </thead>
-          <tbody>
-              <tr>
-                  <td>1. DEEN DIAMONDBACK</td>
-                  <td>47.5</td>
-              </tr>
-              <tr>
-                  <td>2. ROSMAN AZRAI</td>
-                  <td>31.0</td>
-              </tr>
-              <tr>
-                  <td>3. AJEFRI ABU SALMAN</td>
-                  <td>18.2</td>
-              </tr>
-          </tbody>
-        </table>
-			</div>
-			
-
-      <div class="swiper-slide">
-					<div class="jumbotron text-center">
-						  <header class="entry-header">
-									<h1>iSAHAM</h1>
-									<h4>3Q18 PORTFOLIO CHALLENGE</h4>
-					</header><!-- .entry-header -->
-						</div>
-
-        <table id="myTable" class="tablesorter table table-hover table-sector" >
-          <thead>
-              <tr>
-                  <th>WINNERS</th>
-                  <th>SCORE  (%)</th>
-              </tr>
-          </thead>
-          <tbody>
-              <tr>
-                  <td>1. DEEN DIAMONDBACK</td>
-                  <td>47.5</td>
-              </tr>
-              <tr>
-                  <td>2. ROSMAN AZRAI</td>
-                  <td>31.0</td>
-              </tr>
-              <tr>
-                  <td>3. AJEFRI ABU SALMAN</td>
-                  <td>18.2</td>
-              </tr>
-          </tbody>
-				</table>
-      </div>
-      <!-- <div class="swiper-slide">Slide 4</div> -->
-		</div>
-    
-    
-    
+		</div><!-- .swiper-wrapper -->
 		 <!-- Add Pagination -->
 		 <div class="swiper-pagination"></div>
-		</div>
-	
+		</div><!-- end of swiper container-->
+
+    
  <!-- Initialize Swiper -->
  <script>
     var swiper = new Swiper('.swiper-container', {
@@ -260,7 +127,7 @@
           return '<span class="' + className + '">' + (index + 1) + '</span>';
         },
       },
-    });
+		});
   </script>
 <!-- END: Insert your code here -->
 </body>
@@ -286,9 +153,45 @@
         <p><a style="font-size: 12px;" href="/privacy-policy">Privacy Policy</a></p>
       </div>
     </div>
-  </footer>
+	</footer>
+	<script>
+		$(function(){
+			$.get("http://localhost:1212/test", function(data){
+				dataParsed = JSON.parse(data)
+				// console.log(data)
+				// console.log(typeof data)
+				// console.log(dataParsed)
+				// console.log(typeof dataParsed)
+        for (const key in dataParsed) {
+					if (dataParsed.hasOwnProperty(key)) {
+						const element = dataParsed[key];
+						let main = `<div class="swiper-slide" id="slide${key}"></div>`
+						let headerWinner = `<div class="jumbotron text-center"><header class="entry-header"><h1>iSAHAM</h1><h4>${element["name"]} PORTFOLIO CHALLENGE</h4></header></div>`
+						let tableWinner = `<table id="myTable" class="table table-hover table-sector"><thead><tr><th>WINNERS</th><th>SCORE(%)</th></tr></thead><tbody><tr><td>1. ${element["first"]["name"]}</td><td>${element["first"]["score"]}</td></tr><tr><td>2. ${element["second"]["name"]}</td><td>${element["second"]["score"]}</td></tr><tr><td>3.${element["third"]["name"]}</td><td>${element["third"]["score"]}</td></tr></tbody></table>`
+						let headerRunner = `<div class="jumbotron text-center"><header class="entry-header"><h1>RUNNERS</h1></header></div>`
+						let tableRunner = `<table id="myTable" class="table table-hover table-sector" ><thead><tr><th>	WINNERS</th><th>SCORE(%)</th></tr></thead><tbody><tr><td>4. ${element["fourth"]["name"]}</td><td>${element["fourth"]["score"]}</td></tr><tr><td>	5.  ${element["fifth"]["name"]}</td><td>${element["fifth"]["score"]}</td></tr><tr><td>	6.  ${element["sixth"]["name"]}</td><td>${element["sixth"]["score"]}</td></tr><tr><td>7.  ${element["seventh"]["name"]}	</td><td>${element["seventh"]["score"]}</td></tr><tr><td>	8.  ${element["eighth"]["name"]}	</td><td>${element["eighth"]["score"]}</td></tr><tr><td>	9.   ${element["nineth"]["name"]}</td><td>${element["nineth"]["score"]}</td></tr><tr><td>10.   ${element["tenth"]["name"]}</td><td>${element["tenth"]["score"]}</td></tr></tbody></table>`
+						swiper.appendSlide(main);
+						$(`#slide${key}`).append(headerWinner, tableWinner, headerRunner, tableRunner) 
+						// tambah tableRunner
+						console.log(key)
+					}
+				}
+    	});
+		})
+	</script>
 <script src="js/tablesorter2.js"></script>
 <script src="js/script.js"></script>
 <!-- END: Everything here will be replaced with footer.html** -->
 </html>
 <!-- endbuild -->
+<script>
+var a = [
+[1,2],
+[3,4]
+]
+
+var b = {
+	"name1": [1,2.3],
+	"name2": null,
+}
+</script>

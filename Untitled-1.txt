@@ -1,0 +1,80 @@
+			
+
+				<div class="swiper-slide background-slide">
+						<img src="/img/hero.jpg"  style="width: 100%; height:100% ;"/>
+						<!-- <div class=""> -->
+							<div class="content-slide">
+								<div class="jumbotron text-center">
+										<header class="entry-header">
+									<h1>iSAHAM</h1>
+									<h4>3Q18 PORTFOLIO CHALLENGE</h4>
+					</header><!-- .entry-header -->
+						</div>
+
+							<table id="myTable" class="tablesorter table table-hover table-sector" >
+								<thead>
+										<tr>
+												<th>WINNERS</th>
+												<th>SCORE(%)</th>
+										</tr>
+								</thead>
+								<tbody>
+										<tr>
+												<td>1. DEEN DIAMONDBACK</td>
+												<td>47.5</td>
+										</tr>
+										<tr>
+												<td>2. ROSMAN AZRAI</td>
+												<td>31.0</td>
+										</tr>
+										<tr>
+												<td>3. AJEFRI ABU SALMAN</td>
+												<td>18.2</td>
+										</tr>
+								</tbody>
+							</table>
+
+        <div class="jumbotron text-center">
+						<header class="entry-header">
+								<h1>RUNNERS</h1>
+								<!-- <h4>3Q18 PORTFOLIO CHALLENGE</h4> -->
+				</header><!-- .entry-header -->
+					</div>
+					<table id="myTable" class="tablesorter table table-hover table-sector" >
+						<thead>	
+							<tr>
+								<th>	WINNERS</th>
+								<th>SCORE(%)</th>	
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>4. ALAWI FITRI JOHARI</td>
+								<td>13.1</td></tr>
+							<tr>
+								<td>	5. SHARAFI YAMIN</td>
+								<td>12.2</td>
+							</tr>							
+							<tr>
+							<td>	6. QAYRUL KHUBAIDILLAH</td>
+							<td>9.1</td></tr>
+								<tr>
+							<td>7. FAIZUL IZWAN	</td>
+							<td>8.0</td></tr>
+								<tr>
+							<td>	8. MAHFUZ MALEK	</td>
+							<td>7.8</td></tr>						
+								<tr>
+							<td>	9.  SYAHID SAPIAN</td>
+							<td>6.8</td></tr>
+							<tr>
+							<td>10.  KEDAI BORONG</td>
+							<td>6.5</td></tr>
+						</tbody>
+					</table>
+				</div>
+				<!-- content -->>
+		</div> 
+		<!-- slider -->
+      <!-- <div class="swiper-slide">Slide 4</div> -->
+		</div>   <!-- end of swiper wrapper-->
